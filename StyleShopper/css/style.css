@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=The+Nautigal&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&family=Signika+Negative&display=swap');
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+#nav{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+
+.navbar{
+    background: linear-gradient(#333);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    /* height: 40px; */
+    padding-left: 20px;
+}
+
+.navbar-nav li a {
+    color: #333 !important;
+    font-weight: 600;
+}
+
+
+ /* a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(245, 60,28);
+    width: 10%;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+
+}
+
+a:hover:after{
+    width: 100%;
+} */
+
+/* banner */
+#banner{
+    background-image: linear-gradient(to right, #333);
+    color: #333;
+    padding-bottom: 5%;
+    /* padding-top: 100%; */
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+
+ .play-btn{
+   width: 45px;
+   margin: 20px;
+}
+
+#banner a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* about section */
+/* #about-body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+} */
+
+
+/* Carousel */
+.carousel-item .text-1{
+    font-size:50px;
+    font-family: 'Libre Baskerville', serif;
+}
+.carousel-item .paragraph-1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+.carousel-item .text-2{
+    font-size:50px;
+    font-family: 'Libre Baskerville', serif;
+}
+.carousel-item .paragraph-2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.carousel-item .text-3{
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+/* Description */
+.desc-p{
+    color: rgba(224, 109, 80, 0.815);
+    font-size: 15px;
+}
+.desc-header{
+    font-family: 'Neuton', serif;
+    /* font-weight: bold; */
+    font-size: 60px;
+}
+
+
+/* About section */
+.about-section{
+   
+    background: url(../image/fashion-gec4039e79_1920.jpg) no-repeat left;
+    background-size: 65%;
+    background-color: #fdfdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfdfd;
+    padding:150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.border {
+    height: 3px;
+    width: 150px;
+    background-color: rgb(245, 60,28);
+}
+
+.text
+{
+    font-size: 13;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+button{
+    border: none;
+    padding: 8px 15px;
+    background-color: rgb(245,60, 28);
+    color: #fff;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+@media only screen  and (max-width:1200px) {
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media only screen  and (max-width:1000px) {
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+        
+        }
+    .inner-container{
+        width: 100%
+    }
+
+
+}
+
+@media only screen  and (max-width:600px) {
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+/* Services */
+.section-head{
+    margin-bottom: 60px;
+}
+
+.section-head h4{
+    position: relative;
+    padding:0;
+    color: lightblue;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.section-head h4:before{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: lightblue;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.section-head h4 span{
+    font-weight: 700;
+    padding-bottom:5px ;
+    color: #2f2f2f;
+
+}
+/* 
+.section-head p{
+    color: #818181;
+    font-size: 16px;
+    text-align: center;
+} */
+
+.item{
+    background: #fff;
+    text-align: center;
+    padding: 30px 25px;
+    box-shadow:  0 0 25px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 5px solid rgba(0, 0, 0, 0.07);
+    transition: all 0.5s ease 0s;
+}
+
+.item:hover{
+    background: lightblue;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+.service-text{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Reviews */
+/* .reviews{
+    margin-bottom: 60px;
+}
+
+.reviews h4{
+    position: relative;
+    padding:0;
+    color: #333;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+.reviews h4:before{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #3333;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.user-one{
+    text-align: center;
+} */
+
+
+
+
+/* footer */
+#footer-info {
+    height:50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* icons styling-footer */
+#footer-info .footer-icons {
+    padding-top : 10px;
+}
+#footer-info  h4 {
+    padding-top: 20px;
+}
+
+/* Socials */
+/* #social{
+    background: #ffff;
+    padding: 100px 0;
+}
+
+#social p{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.icons img{
+    width: 60px;
+    
+} */
+
+
+/* Testimonial */
+#testimonial .carousel-inner{
+    background: #333;
+    height: 100vh;
+}
+.test-name {
+    color: #333;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.test-word{
+    font-family: 'Vujahday Script', cursive;
+    font-size: 20px;
+}
+
+.header-test{
+    letter-spacing: 3px;
+    color: rgba(224, 109, 80, 0.815);
+}
+
+.text-test{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Shopper page */
+.content{
+    display: flex;
+}
+.content-img{
+    width: 50%;
+}
+.content-text{
+    background: lightgrey;
+    text-align: center;
+    font-size:30px;
+    padding-top:100px;
+    
+    /* font-family: 'Source Code Pro', monospace; */
+}
+.content-text p{
+    font-family: 'Source Code Pro', monospace;
+
+}
+.content-text button:hover{
+    background: red;
+}
+
+@media only screen  and (max-width:1200px) {
+.content{
+    display: flex;
+}
+}
+
+@media only screen  and (max-width:1000px) {
+   
+    .content{
+        display: flex;
+    }
+   
+}
+
+@media only screen  and (max-width:600px) {
+    .content{
+        display: flex;
+       
+    }
+    .content-img{
+        display: none;
+    }
+
+}
+
+
+
+/* ABout Class */
+.about-head p{
+    font-size: 15px;
+    color: rgba(224, 109, 80, 0.815);
+}
+.about-head h2 {
+    font-family: 'Neuton', serif;
+    /* font-weight: bold; */
+    font-size: 60px;
+}
+
+.about-desc i{
+    font-size: 100px;
+    /* color: rgba(187, 107, 87, 0.815); */
+    color: #ffb6c1;
+    
+    border-radius: 100%;
+    background-size:1000%;
+}
+
+.about-desc h6{
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    /* color: rgba(187, 107, 87, 0.815); */
+    color: #333;
+    font-weight: bold;
+}
+.about-desc p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    
+}
+
+
+/* Contact page */
+#contact p {
+    color:rgba(224, 109, 80, 0.815);
+}
+.contact-header{
+    font-family: 'Neuton', serif;
+    /* font-weight: bold; */
+    font-size: 40px;
+}
+.contact-section{
+   
+    background: url(../image/make-a-phone-call-g09d4b3547_1920.jpg) no-repeat left;
+    background-size: 65%;
+    background-color: #fdfdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.contact-section p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    color: rgba(224, 109, 80, 0.815);
+}
+
+.about-p{
+    color: rgba(224, 109, 80, 0.815);
+
+}
+
+/* Wardrobe */
+.wardrobe-img{
+    max-width: 100%;
+}
+
+.gap100{
+    padding: 70px 0px;
+}
+
+.rediscover{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.rediscover-style{
+    font-family: 'Padauk', sans-serif;
+}
+
+
+/* SHE */
+.banner{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.315)),url(../image/pink-hair-gb95dbd81e_1920.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+
+.banner .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 55px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2px;
+    position: relative;
+}
+
+.banner .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner .navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transform: 0.5s;
+}
+
+.banner .navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+/* Service */
+#service-x{
+    background: 	#f3cf0081;
+}
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+/* info */

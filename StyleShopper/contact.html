@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://kit.fontawesome.com/91a9988253.js" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel = "stylesheet" href = "css/main.css">
+   <!-- fontawesome cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- bootstrap css -->
+   <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+
+    <title>SHE Style</title>
+  </head>
+  <body>
+    
+    <!-- <section id="nav">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="./image/cdnlogo.com_she.svg" width="50" height="50" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">SERVICES</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="wardrobe.html">Wardrobe Edit</a></li>
+                    <li><a class="dropdown-item" href="maternity.html">Maternity Styling</a></li>
+                    <li><a class="dropdown-item" href="cataloging.html">Cataloging/Outfit build</a></li>
+                    <li><a class="dropdown-item" href="concierge.html">Concierge services</a></li>
+                    <li><a class="dropdown-item" href="personal_shopping.html">Personal Shopping</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Contact Me</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="contact.html">CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </section> -->
+  <nav class = "navbar navbar-expand-lg navbar-light bg-white my-4 fixed-top">
+    <div class = "container">
+        <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+            <!-- <img src = "/image/shopping-bag.png" alt = "site icon"> -->
+            
+            <span class = "text-uppercase fw-lighter ms-2">SHESTYLE</span>
+            <!-- <img src = "./image/shopping-bag (1).png" alt = "site icon">  -->
+            <!-- <span class = "text-primary"><i class="fa-solid fa-bag-shopping"></i></span> -->
+        </a>
+
+        <div class = "order-lg-2 nav-btns">
+            <!-- <button type = "button" class = "btn position-relative">
+                <i class = "fa fa-shopping-cart"></i>
+                <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+            </button> -->
+            <!-- <button type = "button" class = "btn position-relative">
+                <i class = "fa fa-heart"></i>
+                <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+            </button> -->
+            <!-- <button type = "button" class = "btn position-relative">
+                <i class = "fa fa-search"></i>
+            </button> -->
+            <button type="button" class="btn position-relative" onclick="myFunction()">
+                <!-- <span><i class="fa-solid fa-heart"></i></span> -->
+                <img src="./image/moon.png" alt="" id="icon" class="mx-0">
+            </button>
+        </div>
+
+        <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+
+        <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+            <ul class = "navbar-nav mx-auto text-center">
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-dark" href = "index.html">Home</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-dark" href = "index.html">About</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-dark" href = "service.html">Services</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-dark" href = "#contact">Contact us</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-dark" href = "youtube.html">Youtube</a>
+                </li>
+               
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!-- Contact Page -->
+    <!-- <section id="contact">
+        <div class="contact-info mt-5 pt-5">
+            <h2 class="text-center desc-header">Incredibly helpful and friendly <br>personal shopper with experience</h2>
+        </div>
+    </section> -->
+
+    <br>
+    <br>
+
+    <!-- <section id="info pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-4 col-sm-6 about-desc">
+                        <div class="contact-icon text-center"><span><a href="https://www.facebook.com/Styleshopperuk/" target="_blank"><i class="fab fa-facebook"></i></a></span></div>
+                        <h6 class="text-center">FACEBOOK</h6>
+                        <p>Click the icon above to Find and contact us on facebook.</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 about-desc">
+                        <div class="contact-icon text-center"><span><a href="" target="_blank"><i class="fas fa-envelope"></i></a></span></div>
+                        <h6 class="text-center">EMAIL</h6>
+                        <p>Click the icon above to Find and contact us on facebook.</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 about-desc">
+                        <div class="contact-icon text-center"><span><a href="https://api.whatsapp.com/send?phone=447551748443" target="_blank"><i class="fas fa-phone"></i></a></span></div>
+                        <h6 class="text-center">PHONE</h6>
+                        <p>Click the icon above to Find and contact us on facebook.</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 about-desc">
+                        <div class="contact-icon text-center"><span><a href="" target="_blank"><i class="fab fa-snapchat"></i></a></span></div>
+                        <h6 class="text-center">SNAPCHAT</h6>
+                        <p>Click the icon above to Find and contact us on facebook.</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 about-desc">
+                        <div class="contact-icon text-center"><span><a href="https://www.instagram.com/StyleShopperUK/" target="_blank"><i class="fab fa-instagram"></i></a></span></div>
+                        <h6 class="text-center">INSTAGRAM</h6>
+                        <p>Click the icon above to Find and contact us on facebook.</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 about-desc">
+                        <div class="contact-icon text-center"><span><a href="https://www.linkedin.com/in/funmi-agboke-804aa8201/" target="_blank"><i class="fab fa-linkedin"></i></a></span></div>
+                        <h6 class="text-center">LINKEDIN</h6>
+                        <p>Click the icon above to Find and contact us on facebook.</p>
+                    </div>
+            </div>
+        </div>
+    </section> -->
+
+<br>
+<br>
+    <!-- Contact form -->
+    <div class="contact-section">
+        <div class="inner-container">
+            <h1 >Contact US
+            <div class="border"></div>
+        </h1>
+
+        <!-- <p class="text">
+            My name is Funmi, a Personal Stylist based in Manchester UK. I help Women look and feel confident  inside out by maintaining an elegant lifestyle. I have a keen eye for beautiful timeless and stylish outfits and can create ideas of how these pieces will work together to dictate elegance, style, class, and confidence. With my experience in styling, I understand each client&#039;s uniqueness, and why it is important to consider these when styling them. I ensure client&#039;s proportion/features dictates the type of clothing they are comfortable in so that getting dressed gets a lot easier day after day.
+        </p> -->
+        <h2 class="contact-header">Leave Us A Message Today!</h2>
+        <p>Contact us today for all your fashion needs.</p>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="sheshopper@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hello..."></textarea>
+          </div>
+
+        <!-- <button class="about text-decoration-none">Send Message</button> -->
+        <button type="button" class=" btn btn-outline-secondary text-decoration-none">Send Message</button>
+        </div>
+        
+    </div>
+
+
+    <section id="about-description">
+
+        <p class=" about-p text-center">WANNA  &nbsp; KNOW &nbsp; WHAT WE CAN DO FOR YOU? &nbsp;</p>
+        <h2 class="text-center desc-header fw-bold">Our areas of specialisation include:</h2>
+
+        <div class="container">
+            <div class="row mb-5 pt-5">
+                <br>
+                <br>
+                <div class="col-lg-4 col-sm-6 about-desc">
+                    <div class="icon text-center"><span class="rounded-circle"><i class="fas fa-tshirt"></i></span></div><br>
+                        <h6 class="text-center">PERSONAL STYLING</h6>
+                        <p>Range of personal styling, personal shopping and wardrobe makeover services for both men and women</p>
+                    
+                </div>
+               
+                <div class="col-lg-4 col-sm-6 about-desc">
+                    <div class="icon text-center"><span><i class="fas fa-ring"></i></span></div><br>
+                        <h6 class="text-center">SPECIAL OCCASSION</h6>
+                        <p>Range of personal styling, personal shopping and wardrobe makeover services for both men and women</p>
+                    
+                </div>
+               
+                <div class="col-lg-4 col-sm-6 about-desc">
+                    <div class="icon text-center"><span><i class="fas fa-calendar-week"></i></span></div><br>
+                        <h6 class="text-center">FASHION EVENTS</h6>
+                        <p>Range of personal styling, personal shopping and wardrobe makeover services for both men and women</p>
+                    
+                </div>
+               
+              
+
+    </section>
+
+
+    <!-- Footer -->
+    <section id="footer" class="py-3">
+      <div class = "col-md-6 col-lg-3 ">
+        
+        <div class="container text-center">
+            <ul class = "list-unstyled d-flex text-center">
+                <li class="text-center">
+                    <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                        <i class = "fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                        <i class = "fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                        <i class = "fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                        <i class = "fab fa-pinterest"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </section>
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
